@@ -47,4 +47,5 @@ def is_valid(input):
 
 
 if __name__ == "__main__":
-    play()
+    while True:
+        play()
