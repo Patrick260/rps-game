@@ -21,11 +21,11 @@ def result(action1, action2):
 
 
 def action_to_num(action):
-    if action == "rock" or action == "Rock":
+    if action == "rock" or "Rock":
         return 0
-    elif action == "paper" or action == "Paper":
+    elif action == "paper" or "Paper":
         return 1
-    elif action == "scissors" or action == "Scissors":
+    elif action == "scissors" or "Scissors":
         return 2
 
 
@@ -39,11 +39,11 @@ def num_to_action(num):
 
 
 def is_valid(input):
-    if input != "rock" and input != "Rock" and input != "paper" and input != "Paper" and input != "scissors" \
-            and input != "Scissors":
-        return False
-    else:
+    if input == "rock" or "Rock" or "paper" or "Paper" or "scissors" \
+            or "Scissors":
         return True
+    else:
+        return False
 
 
 if __name__ == "__main__":
