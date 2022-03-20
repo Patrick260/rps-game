@@ -94,7 +94,7 @@ setup(
         'Topic :: Games',
 
         # Pick your license as you wish
-        'License ::  GPL-3.0 License',
+        'License ::  GPLv3+',
 
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate you support Python 3. These classifiers are *not*
