@@ -129,7 +129,7 @@ setup(
     #
     #   py_modules=["my_module"],
     #
-    packages=find_packages(include=['rock-paper-scissors']),  # Required
+    packages=find_packages(include=['rock_paper_scissors']),  # Required
 
     # Specify which Python versions you support. In contrast to the
     # 'Programming Language' classifiers above, 'pip install' will check this
@@ -175,7 +175,11 @@ setup(
     #
     # For example, the following would provide a command called `sample` which
     # executes the function `main` from this package when invoked:
-    entry_points={},
+    entry_points={
+        'console_scripts': [
+            'rock-paper-scissors=rock_paper_scissors:main',
+        ],
+    },
 
     # List additional URLs that are relevant to your project as a dict.
     #

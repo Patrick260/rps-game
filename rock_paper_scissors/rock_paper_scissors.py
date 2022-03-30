@@ -59,8 +59,3 @@ def is_valid(input):
         return True
     else:
         return False
-
-
-if __name__ == "__main__":
-    while True:
-        play()
