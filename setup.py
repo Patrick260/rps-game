@@ -26,7 +26,7 @@ setup(
     description='A simple CLI based Rock-Paper-Scissors written in Python.',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/Patrick260/Rock-Paper-Scissors',
+    url='https://github.com/Patrick260/rps-game',
     author='Patrick260',
     author_email='Patrick260@protonmail.com',
     classifiers=[
@@ -55,7 +55,7 @@ setup(
         ]
     },
     project_urls={
-        'Source': 'https://github.com/Patrick260/Rock-Paper-Scissors',
-        'Bug Reports': 'https://github.com/Patrick260/Rock-Paper-Scissors/issues'
+        'Source': 'https://github.com/Patrick260/rps-game',
+        'Bug Reports': 'https://github.com/Patrick260/rps-game/issues'
     }
 )
