@@ -1,4 +1,5 @@
 .idea
 build
+venv
 dist
 py_rps_game.egg-info
