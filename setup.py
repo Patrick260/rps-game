@@ -23,7 +23,7 @@ long_description = (here / 'README.MD').read_text(encoding='utf-8')
 setup(
     name='py-rps-game',
     version='1.0',
-    description='A simple CLI based Rock-Paper-Scissors written in Python.',
+    description='A CLI based Rock-Paper-Scissors written in Python.',
     long_description=long_description,
     long_description_content_type='text/markdown',
     author='Patrick260',
