@@ -1,6 +1,6 @@
 ## What's this?
 
-A simple CLI based Rock-Paper-Scissors written in Python.
+A CLI based Rock-Paper-Scissors written in Python.
 
 ## How to play
 
